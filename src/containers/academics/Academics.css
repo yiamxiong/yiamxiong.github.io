@@ -1,0 +1,82 @@
+.academics-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.track-title {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  color: #6c63ff;
+  border-bottom: 2px solid #6c63ff;
+  padding-bottom: 0.5rem;
+}
+
+/* 🔄 Main container with gradient and subtle texture */
+.academics-wrapper {
+  background: linear-gradient(to bottom, #0b0c10, #111111);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.track-section {
+  background-color: transparent;
+}
+
+.course-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.course-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.academics-hero {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.academics-title {
+  font-size: 2.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.academics-subtitle {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.track-header {
+  background: #151515;
+  padding: 1rem 2rem;
+  border-left: 4px solid #6c63ff;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+.track-title {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #6c63ff;
+}
+
+/* 🖥 Extra padding on larger screens */
+@media (min-width: 1024px) {
+  .academics-wrapper {
+    padding: 4rem 6rem;
+  }
+}

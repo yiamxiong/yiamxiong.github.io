@@ -48,3 +48,11 @@
     font-size: 16px;
   }
 }
+
+.education-img {
+  max-width: 140px;
+  max-height: 80px;
+  object-fit: contain;
+  border-radius: 8px; // Change to 0 for sharp corners
+  background-color: transparent;
+}

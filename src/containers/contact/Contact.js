@@ -5,7 +5,8 @@ import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
+import { StyleContext } from "../../contexts/StyleContext";
+
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);

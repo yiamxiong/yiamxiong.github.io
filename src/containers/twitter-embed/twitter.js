@@ -3,7 +3,8 @@ import "./twitter.scss";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 import {twitterDetails} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
+import { StyleContext } from "../../contexts/StyleContext";
+
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =

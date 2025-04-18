@@ -28,3 +28,22 @@
 .subTitle {
   color: $subTitle;
 }
+
+.dark-mode {
+  background-color: #0b0c10;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #ffffff;
+}
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .app-container {
+  background-color: #0b0c10;
+  color: #ffffff;
+}

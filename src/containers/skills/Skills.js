@@ -5,7 +5,8 @@ import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
+import { StyleContext } from "../../contexts/StyleContext";
+
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);

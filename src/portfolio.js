@@ -1,5 +1,4 @@
 /* Custom Portfolio for Yia Moua Xiong */
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
@@ -17,7 +16,7 @@ const greeting = {
   username: "Yia Moua Xiong",
   title: "Hi, I'm Yia",
   subTitle: emoji(
-    "Technical Support Analyst pivoting into Data Analytics. Experienced in IT systems and support with a strong foundation in troubleshooting, networking, and infrastructure. Currently gaining hands-on expertise in Power BI, Python, and SQL for data storytelling and decision-making."
+    "Systems/Network Technician pivoting into Data Analytics. Experienced in IT systems and support with a strong foundation in troubleshooting, networking, and infrastructure. Currently gaining hands-on expertise in Power BI, Python, and SQL for data storytelling and decision-making."
   ),
   resumeLink:
     "/resume_ymxiong.pdf",
@@ -33,7 +32,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "TECH SUPPORT PRO TURNED DATA",
+  subTitle: "SYSTEMS/NETWORK PRO TURNED DATA ANALYST",
   skills: [
     emoji("📊 Transform complex data into understandable visuals using Power BI and Excel"),
     emoji("⚙️ Troubleshoot networks, systems, and applications across enterprise environments"),
@@ -45,10 +44,11 @@ const skillsSection = {
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "Windows Server", fontAwesomeClassname: "fab fa-windows" },
-    { skillName: "Azure AD", fontAwesomeClassname: "fab fa-microsoft" },
+    { skillName: "Entra ID", fontAwesomeClassname: "fas fa-user-shield" },
     { skillName: "SharePoint", fontAwesomeClassname: "fas fa-share-alt" }
   ],
   display: true
+  
 };
 
 const educationInfo = {
@@ -56,17 +56,29 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Chippewa Valley Technical College",
-      logo: "",
-      subHeader: "Associate of Applied Science in IT - Network Specialist",
+      logo: require("./assets/images/cvtcLogo.png"), // optional if you have a logo
+      subHeader: "Associate of Applied Science – IT Data Analyst (In Progress)",
       duration: "Expected Spring 2025",
-      desc: "Coursework includes Networking, Power BI, SQL, Python, Excel, and Data Analytics foundations.",
+      desc: "Pursuing second degree to pivot into Data Analytics and build on prior IT networking expertise.",
       descBullets: [
-        "Designed dashboards and analyzed data sets using Power BI",
-        "Applied SQL and Python to manipulate and extract insights from structured data"
+        "Hands-on coursework in Power BI, SQL, Python, and data storytelling",
+        "Completed machine learning, data privacy, and business intelligence reporting"
+      ]
+    },
+    {
+      schoolName: "Chippewa Valley Technical College",
+      logo: require("./assets/images/cvtcLogo.png"),
+      subHeader: "Associate of Applied Science – IT Network Specialist",
+      duration: "Graduated 2011",
+      desc: "Focused on infrastructure, systems troubleshooting, and server/network administration.",
+      descBullets: [
+        "Gained strong foundation in AD, DHCP, DNS, Windows Server, VMware",
+        "Prepared for CompTIA certifications and real-world network support roles"
       ]
     }
   ]
 };
+
 
 const techStack = {
   viewSkillBars: true,
@@ -84,29 +96,34 @@ const workExperiences = {
     {
       role: "Technical Support Analyst",
       company: "Chippewa County",
+      companylogo: require("./assets/images/projectDefault.png"),
       date: "Dec 2022 – Present",
-      desc: "Create and manage SharePoint environments, troubleshoot Azure AD and Avatar EHR, and develop user training materials. Provide broad technical support across departments."
+      desc: "Create and manage SharePoint environments, troubleshoot Entra ID and Avatar EHR, and develop user training materials. Provide broad technical support across departments."
     },
     {
       role: "IT Consultant",
       company: "Grow Green Garden Supplies",
+      companylogo: require("./assets/images/projectDefault.png"),
       date: "Mar 2021 – Dec 2022",
       desc: "Maintained POS systems and backups, managed network devices, and supported day-to-day IT operations including inventory systems."
     },
     {
       role: "IT Systems Technician",
       company: "Eau Claire Area School District",
+      companylogo: require("./assets/images/projectDefault.png"),
       date: "Aug 2019 – Mar 2021",
       desc: "Monitored district servers and backup processes, supported endpoint management, software patching, and provided Tier 2 technical support."
     },
     {
       role: "IT Field Technician",
       company: "Eau Claire Area School District",
+      companylogo: require("./assets/images/projectDefault.png"),
       date: "Oct 2017 – Aug 2019",
       desc: "Configured devices, repaired AV and tech components, supported staff and students with day-to-day IT needs."
     },
     {
       role: "Technical Services Consultant IV",
+      companylogo: require("./assets/images/projectDefault.png"),
       company: "IDEXX Laboratories",
       date: "Aug 2014 – Oct 2017",
       desc: "Led hardware/software implementation projects for veterinary clinics, coordinated onsite technicians, and managed network infrastructure installs."
@@ -131,8 +148,8 @@ const bigProjects = {
     },
     {
       image: "",
-      projectName: "Customer Churn Analysis",
-      projectDesc: "Used Python, pandas, and scikit-learn to predict customer churn from telecom data.",
+      projectName: "Machine Learning Analysis",
+      projectDesc: "Used Python, pandas, and scikit-learn to predict data.",
       footerLink: [{ name: "Coming Soon", url: "#" }]
     }
   ],

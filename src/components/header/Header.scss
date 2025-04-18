@@ -20,6 +20,28 @@
   background-color: $buttonColor !important;
 }
 
+.light-menu {
+  background-color: $lightBackground1 !important;
+  color: $textColor;
+
+  li a {
+    color: $textColor !important;
+  }
+
+  li a:hover {
+    background-color: $headerHoverBG;
+  }
+
+  .menu-icon .navicon {
+    background: $iconBackground;
+  }
+
+  .menu-icon .navicon:before,
+  .menu-icon .navicon:after {
+    background: $iconBackground;
+  }
+}
+
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
@@ -179,4 +201,11 @@
   .header {
     font-size: 12px;
   }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0b0c10; // or your preferred dark/light background
 }
