@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.923efd74.css",
-    "main.js": "/static/js/main.e500fe5b.js",
+    "main.css": "/static/css/main.18a33c83.css",
+    "main.js": "/static/js/main.be905cf1.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/js/769.8ba5c3ba.chunk.js": "/static/js/769.8ba5c3ba.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/N+.png": "/static/media/N+.c565cf0841fce529f1c8.png",
+    "static/media/A+.png": "/static/media/A+.b1be27a2039fe86cfdb6.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/projectDefault.png": "/static/media/projectDefault.4bf914cb7d3451960262.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/chippewacountyLogo.png": "/static/media/chippewacountyLogo.85e6fe4d4429e7b8be03.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/cvtcLogo.png": "/static/media/cvtcLogo.71aab390ea02bb15b7bb.png",
+    "static/media/gggsLogo.png": "/static/media/gggsLogo.483924864e4feadc3f55.png",
+    "static/media/idexxLogo.jpg": "/static/media/idexxLogo.8dc6c2432b259945ae5c.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "index.html": "/index.html",
-    "main.923efd74.css.map": "/static/css/main.923efd74.css.map",
-    "main.e500fe5b.js.map": "/static/js/main.e500fe5b.js.map",
+    "main.18a33c83.css.map": "/static/css/main.18a33c83.css.map",
+    "main.be905cf1.js.map": "/static/js/main.be905cf1.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
+    "769.8ba5c3ba.chunk.js.map": "/static/js/769.8ba5c3ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.923efd74.css",
-    "static/js/main.e500fe5b.js"
+    "static/css/main.18a33c83.css",
+    "static/js/main.be905cf1.js"
   ]
 }
