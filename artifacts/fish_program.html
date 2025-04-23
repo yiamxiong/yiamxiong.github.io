@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fishing Calculator Output</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: monospace;
+      padding: 1rem;
+      color: #333;
+    }
+    pre {
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      max-height: 500px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <pre id="output"></pre>
+  <script>
+    const outputDiv = document.getElementById("output");
+
+    const simulatedPrompts = [
+      "Bass", 18, 4.5,
+      "Trout", 15, 3,
+      "Bass", 20, 5,
+      "no",
+      6, 9 // startTime, endTime
+    ];
+    let promptIndex = 0;
+    window.prompt = (q) => simulatedPrompts[promptIndex++];
+
+    document.write = (text) => {
+      outputDiv.textContent += text + "\n";
+    };
+  </script>
+  <script src="./fish.js"></script>
+</body>
+</html>
