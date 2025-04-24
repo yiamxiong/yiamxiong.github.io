@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Fish Logger UI Preview</title>
+  <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: auto; /* Enable scrolling if needed */
+      }
+    
+    body {
+      background-color: #1f1f1f;
+      color: #f1f1f1;
+      font-family: monospace;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    .console {
+      background-color: #000;
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid #444;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      max-width: 800px;
+      margin: auto;
+      white-space: pre-wrap;
+    }
+
+    .highlight {
+      color: #6c63ff;
+    }
+
+    .log-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .log-table th,
+    .log-table td {
+      border: 1px solid #666;
+      padding: 0.4rem;
+      text-align: left;
+    }
+
+    .log-table th {
+      background-color: #2a2a2a;
+      color: #6c63ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="console">
+    <strong>MENU OPTIONS</strong><br>
+    1 - Display Fishing Log<br>
+    2 - Add a Fish<br>
+    3 - Remove a Fish<br>
+    4 - Exit Program<br><br>
+
+    <span class="highlight">User selects: 1</span><br><br>
+
+    <strong>Fishing Log:</strong><br>
+    Fish Type      Length(in)    Weight(lbs)<br>
+    ----------------------------------------<br>
+    1.   Bass          15.25         2.40<br>
+    2.   Trout         13.80         1.90<br>
+    3.   Pike          18.50         3.20<br>
+    ----------------------------------------<br>
+    Average Length: 15.85 in<br>
+    Average Weight: 2.50 lbs<br><br>
+
+    <span class="highlight">User selects: 2</span><br>
+    What kind of fish? <em>Perch</em><br>
+    What is the length in inches? <em>10.5</em><br>
+    What is the weight in lbs? <em>1.2</em><br><br>
+    Perch (10.5 inches, 1.2 lbs) was added!
+  </div>
+</body>
+</html>
