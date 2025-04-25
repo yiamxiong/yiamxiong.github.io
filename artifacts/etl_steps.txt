@@ -1,0 +1,26 @@
+# ETL Pipeline Summary (Built with Alteryx Designer)
+
+1. **Extract**:
+   - Connected to a CSV source file containing raw order data.
+   - Connected to a MySQL database to retrieve customer records.
+
+2. **Transform**:
+   - Cleaned missing values and standardized date/time formats.
+   - Performed joins between orders and customer tables.
+   - Parsed customer names into first/last format.
+   - Created new calculated fields (e.g., OrderValue = Qty * Price).
+   - Filtered records with status 'Shipped' and 'Delivered'.
+   - Aggregated total sales per customer and region.
+
+3. **Load**:
+   - Output structured results to an Excel summary report.
+   - Uploaded clean datasets to a MySQL data warehouse table.
+   - Exported validation logs for QA audit.
+
+# Tool Highlights:
+✔ Input Data (CSV, DB)
+✔ Select & Filter
+✔ Formula Tool
+✔ Join Tool
+✔ Output Data (Excel, SQL)
+✔ Data Cleansing
