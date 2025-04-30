@@ -1,0 +1,18 @@
+Report Name: Sales by Territory
+
+Tool Used: Microsoft Report Builder
+
+Key Features Implemented:
+- Connected to AdventureWorks2019 database
+- Built SQL query for sales grouped by territory and country
+- Inserted table visual with grouping levels:
+    • Country
+    • Territory
+- Added group headers and footers for subtotals
+- Applied page breaks by country for clean pagination
+- Formatted currency and numeric fields
+- Exported report to Excel for easy stakeholder use
+
+Export Demonstrated:
+- Paginated report exported to .xlsx format preserving groupings
+- Ready for distribution to non-technical users
