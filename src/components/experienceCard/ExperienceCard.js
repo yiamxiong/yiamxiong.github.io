@@ -82,3 +82,4 @@ export default function ExperienceCard({cardInfo, isDark}) {
     </div>
   );
 }
+

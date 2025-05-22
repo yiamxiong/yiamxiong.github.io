@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Systems Analysis Process Overview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 1rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .section {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1b6ec2;
+      margin-top: 0;
+    }
+    .step {
+      margin-bottom: 1rem;
+    }
+    .step h3 {
+      margin: 0.5rem 0;
+      color: #444;
+    }
+    .step p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h2>Systems Analysis & Design Process Overview</h2>
+
+    <div class="step">
+      <h3>1. ERD Creation (Entity Relationship Diagram)</h3>
+      <p>Modeled the initial relationships between Customers, Orders, Employees, and Parts using Draw.io. Focused on key attributes and cardinality to reflect real-world interactions.</p>
+    </div>
+
+    <div class="step">
+      <h3>2. Normalization to 3NF</h3>
+      <p>Refined the diagram into a 3rd Normal Form structure, eliminating redundant data and ensuring every non-key attribute is fully dependent on the primary key. This promotes scalability and data integrity.</p>
+    </div>
+
+    <div class="step">
+      <h3>3. Relational Schema Design</h3>
+      <p>Translated the normalized model into relational tables using Microsoft Access. Primary and foreign keys were applied to enforce referential integrity.</p>
+    </div>
+
+    <div class="step">
+      <h3>4. Sample Data Entry</h3>
+      <p>Input example records into each table to validate structure and test query results. This step helped verify that the design supported real-world scenarios and business logic.</p>
+    </div>
+  </div>
+</body>
+</html>

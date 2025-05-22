@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SQL Results Preview</title>
+  <style>
+    body {
+      font-family: monospace;
+      background-color: #1f1f1f;
+      color: #f1f1f1;
+      padding: 2rem;
+      overflow: auto;
+    }
+
+    h3 {
+      color: #6c63ff;
+      margin-top: 2rem;
+      border-bottom: 1px solid #555;
+      padding-bottom: 0.3rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.5rem;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 0.4rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Query 1: Price Difference per Flight</h3>
+  <table>
+    <tr><th>First Name</th><th>Last Name</th><th>Flight ID</th><th>Seat Price</th><th>Avg Price</th><th>Diff</th></tr>
+    <tr><td>John</td><td>Doe</td><td>101</td><td>120.00</td><td>115.00</td><td>5.00</td></tr>
+  </table>
+
+  <h3>Query 5: Avg Flight Duration by Year</h3>
+  <table>
+    <tr><th>Year</th><th>Num Flights</th><th>Avg Duration (min)</th></tr>
+    <tr><td>2022</td><td>450</td><td>38.56</td></tr>
+    <tr><td>2023</td><td>560</td><td>41.27</td></tr>
+  </table>
+
+</body>
+</html>

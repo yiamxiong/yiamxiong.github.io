@@ -35,8 +35,6 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
 
               <SocialMedia />
-
-              {/* Buttons removed */}
             </div>
           </div>
 

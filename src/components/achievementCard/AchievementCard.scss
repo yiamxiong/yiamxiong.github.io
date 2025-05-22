@@ -75,3 +75,64 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+
+.card-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05) translateY(-4px);
+    animation: pulseBorder 1.2s infinite;
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
+  }
+}
+
+@keyframes pulseBorder {
+  0% {
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  }
+}
+
+.card-image-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #6c63ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+    z-index: 10;
+  }
+
+  &:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    bottom: -50px;
+    margin-top: 0.5rem;
+  }
+}
+

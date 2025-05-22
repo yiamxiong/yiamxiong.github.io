@@ -79,7 +79,7 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain; // changed from cover
   left: 0;
   right: 0;
   top: 7rem;
@@ -88,8 +88,11 @@
   width: 8rem;
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+  border-radius: 0; // <-- remove round cropping
+  background-color: white; // optional - helps logos stand out
+  padding: 0.5rem; // optional - gives a bit of spacing
 }
+
 
 .experience-text-role {
   text-align: center;

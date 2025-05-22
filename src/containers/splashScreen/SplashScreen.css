@@ -1,23 +1,59 @@
+/* Container centers everything */
 .splash-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  justify-content: center;
+  height: 100vh;
+  animation: fadeIn 0.6s ease-in;
 }
 
+/* Animation is smaller and responsive */
 .splash-animation-container {
-  height: 50vh;
+  height: 35vh;
+  max-height: 250px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Your name under the animation */
 .splash-title-container {
-  font-size: 2.5rem;
-  text-decoration: none;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
 }
+
+/* Custom font styling */
 .splash-title {
   font-family: "Agustina Regular", cursive;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
+}
+
+/* Smooth entrance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive for small devices */
+@media (max-width: 600px) {
+  .splash-animation-container {
+    height: 200px;
+  }
+
+  .splash-title-container {
+    font-size: 1.5rem;
+  }
 }

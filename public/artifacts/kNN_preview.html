@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>kNN Model Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #1f1f1f;
+      color: #f1f1f1;
+      font-family: 'Fira Code', monospace;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    .console {
+      background-color: #000;
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid #444;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      max-width: 900px;
+      margin: auto;
+      white-space: pre-wrap;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .highlight {
+      color: #6c63ff;
+    }
+
+    .metric {
+      color: #6c63ff;
+      font-weight: bold;
+      display: block;
+      margin-top: 1rem;
+    }
+
+    .prediction {
+      background-color: #222;
+      padding: 0.5rem;
+      border-left: 4px solid #6c63ff;
+      display: block;
+      margin-top: 1rem;
+    }
+
+    .explanation {
+      margin-top: 2rem;
+      background-color: #2a2a2a;
+      padding: 1rem;
+      border-left: 4px solid #6c63ff;
+      color: #ccc;
+      border-radius: 6px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="console">
+    <strong>kNN Classifier Output:</strong><br><br>
+    Confusion Matrix:<br>
+    [[41  0  0]<br>
+     [ 1 19  0]<br>
+     [ 0  0 42]]<br><br>
+
+    Classification Report:<br>
+    precision    recall  f1-score   support<br><br>
+
+    Adelie       0.98      1.00      0.99        41<br>
+    Chinstrap    1.00      0.95      0.97        20<br>
+    Gentoo       1.00      1.00      1.00        42<br><br>
+
+    accuracy                           0.99       103<br>
+    macro avg      0.99      0.98      0.99       103<br>
+    weighted avg   0.99      0.99      0.99       103<br>
+
+    <span class="prediction">Predicted species: <strong>Gentoo</strong></span>
+  </div>
+
+  <div class="explanation">
+    <h3>📊 What does this mean?</h3>
+    <p>
+      The model correctly predicted the species of penguins with <span class="metric">99% accuracy</span>.
+      This shows that with minimal preprocessing and a simple algorithm (<abbr title="K-Nearest Neighbors: A basic classification method that assigns labels based on the 'closest' data points.">kNN</abbr>),
+      we can achieve high performance on real-world data.<br><br>
+
+      <strong>Analogy:</strong> Think of it like choosing a restaurant based on where your 3 closest foodie friends go—
+      you follow the crowd of people with similar taste. That’s how kNN decides what label to predict.
+    </p>
+  </div>
+</body>
+</html>

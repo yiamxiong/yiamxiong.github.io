@@ -35,3 +35,16 @@
     text-align: center;
   }
 }
+
+.experience-card {
+  background-color: #1f1f1f !important;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.experience-card:hover {
+  background-color: #2a2a2a;
+  transition: background-color 0.3s ease;
+}

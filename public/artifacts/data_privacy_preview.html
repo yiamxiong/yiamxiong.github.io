@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SQL Permissions Overview</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #6c63ff;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    .note {
+      font-style: italic;
+      margin-top: 1.5rem;
+      background-color: #f3f3f3;
+      padding: 1rem;
+      border-left: 4px solid #6c63ff;
+    }
+  </style>
+</head>
+<body>
+  <h2>Understanding SQL Table Permissions</h2>
+
+  <p>This preview explains the permission setup shown in the left panel:</p>
+  <ul>
+    <li><strong>GRANT SELECT</strong>: Allows reading data from the table.</li>
+    <li><strong>GRANT INSERT</strong>: Allows adding new records.</li>
+    <li><strong>GRANT UPDATE</strong>: Allows modifying existing data.</li>
+    <li><strong>GRANT DELETE</strong>: Allows removal of data.</li>
+    <li><strong>GRANT REFERENCES</strong>: Allows defining foreign key constraints using the table.</li>
+  </ul>
+
+  <div class="note">
+    Applying only necessary permissions to roles or users is a best practice in database security.
+  </div>
+</body>
+</html>

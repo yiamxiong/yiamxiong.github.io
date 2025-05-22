@@ -72,11 +72,38 @@
 .education-text-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  color: #ffffff !important;
 }
 
 .education-text-bullets > ul {
   margin-top: 0.5rem;
+  color: #ffffff !important;
 }
+
+.education-text-bullets li {
+  color: #ffffff !important;
+}
+
+.experience-card-dark {
+  background-color: #0b0c10 !important;
+  color: #ffffff;
+
+  .experience-text-role,
+  .experience-text-date,
+  .experience-text-desc,
+  .experience-text-details li {
+    color: #ffffff !important;
+  }
+
+  .experience-banner {
+    background-color: #b9b9b9 !important;
+  }
+
+  .experience-blurred_div {
+    background-color: rgba(216, 216, 216, 0.4) !important;
+  }
+}
+
 
 /* Media Query */
 

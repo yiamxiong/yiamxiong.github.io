@@ -1,6 +1,9 @@
 /* Custom Portfolio for Yia Moua Xiong */
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
+import APlusCert from "./assets/images/A+.png";
+import NPlusCert from "./assets/images/N+.png";
+
 
 const splashScreen = {
   enabled: true,
@@ -57,8 +60,8 @@ const educationInfo = {
     {
       schoolName: "Chippewa Valley Technical College",
       logo: require("./assets/images/cvtcLogo.png"), // optional if you have a logo
-      subHeader: "Associate of Applied Science – IT Data Analyst (In Progress)",
-      duration: "Expected Spring 2025",
+      subHeader: "Associate of Applied Science – IT Data Analyst",
+      duration: "Graduated 2025",
       desc: "Pursuing second degree to pivot into Data Analytics and build on prior IT networking expertise.",
       descBullets: [
         "Hands-on coursework in Power BI, SQL, Python, and data storytelling",
@@ -96,34 +99,34 @@ const workExperiences = {
     {
       role: "Technical Support Analyst",
       company: "Chippewa County",
-      companylogo: require("./assets/images/projectDefault.png"),
+      companylogo: require("./assets/images/chippewacountyLogo.png"),
       date: "Dec 2022 – Present",
       desc: "Create and manage SharePoint environments, troubleshoot Entra ID and Avatar EHR, and develop user training materials. Provide broad technical support across departments."
     },
     {
       role: "IT Consultant",
       company: "Grow Green Garden Supplies",
-      companylogo: require("./assets/images/projectDefault.png"),
+      companylogo: require("./assets/images/gggsLogo.png"),
       date: "Mar 2021 – Dec 2022",
       desc: "Maintained POS systems and backups, managed network devices, and supported day-to-day IT operations including inventory systems."
     },
     {
       role: "IT Systems Technician",
       company: "Eau Claire Area School District",
-      companylogo: require("./assets/images/projectDefault.png"),
+      companylogo: require("./assets/images/ecasdLogo.jpg"),
       date: "Aug 2019 – Mar 2021",
       desc: "Monitored district servers and backup processes, supported endpoint management, software patching, and provided Tier 2 technical support."
     },
     {
       role: "IT Field Technician",
       company: "Eau Claire Area School District",
-      companylogo: require("./assets/images/projectDefault.png"),
+      companylogo: require("./assets/images/ecasdLogo.jpg"),
       date: "Oct 2017 – Aug 2019",
       desc: "Configured devices, repaired AV and tech components, supported staff and students with day-to-day IT needs."
     },
     {
       role: "Technical Services Consultant IV",
-      companylogo: require("./assets/images/projectDefault.png"),
+      companylogo: require("./assets/images/idexxLogo.jpg"),
       company: "IDEXX Laboratories",
       date: "Aug 2014 – Oct 2017",
       desc: "Led hardware/software implementation projects for veterinary clinics, coordinated onsite technicians, and managed network infrastructure installs."
@@ -142,15 +145,15 @@ const bigProjects = {
   projects: [
     {
       image: "",
-      projectName: "Power BI Sales Dashboard",
+      projectName: "Power BI Dashboard",
       projectDesc: "Built dynamic sales dashboards with DAX, slicers, and drill-through reports using a sample dataset.",
-      footerLink: [{ name: "View Repo", url: "https://github.com/yiamxiong/sales-dashboard" }]
+      footerLink: [{ name: "View Repo", url: "https://github.com/yiamxiong/powerbi-dashboards" }]
     },
     {
       image: "",
       projectName: "Machine Learning Analysis",
-      projectDesc: "Used Python, pandas, and scikit-learn to predict data.",
-      footerLink: [{ name: "Coming Soon", url: "#" }]
+      projectDesc: "Used Python, pandas, and Jupyter Notebook to predict data.",
+      footerLink: [{ name: "View Repo", url: "https://github.com/yiamxiong/MachineLearning" }]
     }
   ],
   display: true
@@ -163,20 +166,30 @@ const achievementSection = {
     {
       title: "CompTIA A+",
       subtitle: "Proficient in hardware, networking, troubleshooting, and basic cybersecurity.",
-      image: "",
+      image: APlusCert,
       imageAlt: "CompTIA A+",
       footerLink: []
     },
     {
       title: "CompTIA Network+",
       subtitle: "Skilled in networking protocols, configurations, and network troubleshooting.",
-      image: "",
+      image: NPlusCert,
       imageAlt: "CompTIA Network+",
       footerLink: []
     }
   ],
   display: true
 };
+
+const dataPortfolioSection = {
+  title: "Academic Portfolio 📘",
+  subtitle:
+    "Explore my coursework across Python, SQL, Excel, Power BI, and more. This portfolio showcases the hands-on projects I completed during my transition into data analytics.",
+  linkText: "View Full Academic Portfolio →",
+  linkUrl: "/data-analyst-academics",
+  display: true
+};
+
 
 const blogSection = {
   title: "Blog",
@@ -238,5 +251,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  dataPortfolioSection
 };

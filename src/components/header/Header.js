@@ -130,20 +130,6 @@ function Header() {
             </a>
           </li>
         )}
-        {viewResume && (
-          <li>
-            <a
-              className="nav-link"
-              href="#resume"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("resume");
-              }}
-            >
-              Resume
-            </a>
-          </li>
-        )}
         <li>
           <a
             className="nav-link"
