@@ -58,14 +58,25 @@ const educationInfo = {
   display: true,
   schools: [
     {
+      schoolName: "University of Wisconsin–Stout",
+      logo: require("./assets/images/uwStoutLogo.png"),
+      subHeader: "Bachelor of Science – Business Information Technology",
+      duration: "Expected Spring 2027",
+      desc: "Building advanced skills in business technology, information systems, project management, and organizational operations.",
+      descBullets: [
+        "Expanding technical and leadership skills through business and information technology coursework",
+        "Applying technology solutions to improve processes, decision-making, and organizational performance"
+      ]
+    },
+    {
       schoolName: "Chippewa Valley Technical College",
-      logo: require("./assets/images/cvtcLogo.png"), // optional if you have a logo
+      logo: require("./assets/images/cvtcLogo.png"),
       subHeader: "Associate of Applied Science – IT Data Analyst",
       duration: "Graduated 2025",
-      desc: "Pursuing second degree to pivot into Data Analytics and build on prior IT networking expertise.",
+      desc: "Completed a second degree in data analytics, building on prior IT networking and systems experience.",
       descBullets: [
-        "Hands-on coursework in Power BI, SQL, Python, and data storytelling",
-        "Completed machine learning, data privacy, and business intelligence reporting"
+        "Completed hands-on coursework in Power BI, SQL, Python, and data storytelling",
+        "Studied machine learning, data privacy, business intelligence, and data visualization"
       ]
     },
     {
@@ -73,9 +84,9 @@ const educationInfo = {
       logo: require("./assets/images/cvtcLogo.png"),
       subHeader: "Associate of Applied Science – IT Network Specialist",
       duration: "Graduated 2011",
-      desc: "Focused on infrastructure, systems troubleshooting, and server/network administration.",
+      desc: "Focused on infrastructure, systems troubleshooting, and server and network administration.",
       descBullets: [
-        "Gained strong foundation in AD, DHCP, DNS, Windows Server, VMware",
+        "Built a strong foundation in Active Directory, DHCP, DNS, Windows Server, and VMware",
         "Prepared for CompTIA certifications and real-world network support roles"
       ]
     }
