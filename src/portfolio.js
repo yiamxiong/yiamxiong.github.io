@@ -233,7 +233,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "I'm open to opportunities in Data Analytics and IT!",
-  number: "715-864-1943",
+  number: "",
   email_address: "yiamxiong@gmail.com"
 };
 
