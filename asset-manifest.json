@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ecae617d.css",
-    "main.js": "/static/js/main.af1e3558.js",
+    "main.js": "/static/js/main.fea20f3a.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -16,12 +16,13 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/cvtcLogo.png": "/static/media/cvtcLogo.71aab390ea02bb15b7bb.png",
     "static/media/gggsLogo.png": "/static/media/gggsLogo.483924864e4feadc3f55.png",
+    "static/media/uwStoutLogo.png": "/static/media/uwStoutLogo.09794e7a9e7b443a83f8.png",
     "static/media/idexxLogo.jpg": "/static/media/idexxLogo.8dc6c2432b259945ae5c.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "index.html": "/index.html",
     "main.ecae617d.css.map": "/static/css/main.ecae617d.css.map",
-    "main.af1e3558.js.map": "/static/js/main.af1e3558.js.map",
+    "main.fea20f3a.js.map": "/static/js/main.fea20f3a.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -29,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.ecae617d.css",
-    "static/js/main.af1e3558.js"
+    "static/js/main.fea20f3a.js"
   ]
 }
